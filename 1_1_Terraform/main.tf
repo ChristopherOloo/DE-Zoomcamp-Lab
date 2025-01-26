@@ -8,13 +8,14 @@ terraform {
 }
 
 provider "google" {
-  project = "pro-plasma-448701-j3"
-  region  = "us-central1"
+  credentials = file(var.credentials)
+  project     = var.project
+  region      = var.region
 }
 
 resource "google_storage_bucket" "demo-bucket" {
-  name          = "pro-plasma-448701-j3-terra-bucket"
-  location      = "US"
+  name          = var.gcs_storage_bucket_name
+  location      = var.location
   force_destroy = true
 
   #   lifecycle_rule {
@@ -25,4 +26,8 @@ resource "google_storage_bucket" "demo-bucket" {
   #       type = "Delete"
   #     }
   #   }
+}
+
+resource "google_bigquery_dataset" "demo-dataset" {
+  dataset_id = var.bq_dataset_name
 }

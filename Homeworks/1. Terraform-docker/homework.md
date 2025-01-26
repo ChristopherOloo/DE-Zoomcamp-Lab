@@ -64,11 +64,11 @@ volumes:
     name: vol-pgadmin_data
 ```
 
-- postgres:5433
+- postgres:5433 
 - localhost:5432
 - db:5433
-- postgres:5432
-- db:5432 --> My Answer
+- postgres:5432 --> Even this Works
+- db:5432 --> My Answer: confirmed
 
 
 ##  Prepare Postgres
