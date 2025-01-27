@@ -103,7 +103,7 @@ During the period of October 1st 2019 (inclusive) and November 1st 2019 (exclusi
 Answers:
 
 - 104,802;  197,670;  110,612;  27,831;  35,281
-- 104,802;  198,924;  109,603;  27,678;  35,189
+- 104,802;  198,924;  109,603;  27,678;  35,189 --> My Answer
 - 104,793;  201,407;  110,612;  27,831;  35,281
 - 104,793;  202,661;  109,603;  27,678;  35,189
 - 104,838;  199,013;  109,645;  27,688;  35,202
@@ -116,7 +116,7 @@ Use the pick up time for your calculations.
 
 Tip: For every day, we only care about one single trip with the longest distance. 
 
-- 2019-10-11
+- 2019-10-11 --> My Answer
 - 2019-10-24
 - 2019-10-26
 - 2019-10-31
@@ -129,7 +129,7 @@ Which were the top pickup locations with over 13,000 in
 
 Consider only `lpep_pickup_datetime` when filtering by date.
  
-- East Harlem North, East Harlem South, Morningside Heights
+- East Harlem North, East Harlem South, Morningside Heights --> My Answer
 - East Harlem North, Morningside Heights
 - Morningside Heights, Astoria Park, East Harlem South
 - Bedford, East Harlem North, Astoria Park
@@ -137,7 +137,7 @@ Consider only `lpep_pickup_datetime` when filtering by date.
 
 ## Question 6. Largest tip
 
-For the passengers picked up in Ocrober 2019 in the zone
+For the passengers picked up in October 2019 in the zone
 name "East Harlem North" which was the drop off zone that had
 the largest tip?
 
@@ -147,7 +147,7 @@ We need the name of the zone, not the ID.
 
 - Yorkville West
 - JFK Airport
-- East Harlem North
+- East Harlem North --> My Answer
 - East Harlem South
 
 
