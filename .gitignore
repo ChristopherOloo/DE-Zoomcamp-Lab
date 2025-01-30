@@ -42,3 +42,6 @@ terraform.rc
 
 #for the sake of the keys
 *.json.terraform/
+
+.terraform/
+
